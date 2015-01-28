@@ -4,26 +4,37 @@ body {
 	font-size:12px;
 	line-height:24px;
 	color:#333333;
-	background-color:#ffffff;
+	background-color:#4A385B;
 }
 
 div {
 	display:block;
 }
 
-.temp-home-header {
-	position:relative;
-	max-height:85%;
-	overflow:hidden;
+#home-header {
+    background: #415385;
+    height: 40%;
+    position:relative;
 }
 
-.header-wrapper {
-	margin:-10em 0 0 -45%;
-	position:absolute;
-	width:90%;
-	height:20em;
-	top:50%;
-	left:50%
+#header-content {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    margin-top: -190px;
+}
+
+#header-content a {
+	color: #6C9AAC;
+}
+
+#header-content a:hover {
+	color: #6088AD;
+}
+
+#header-content h1 {
+	color:#BCBCBC;
 }
 
 
